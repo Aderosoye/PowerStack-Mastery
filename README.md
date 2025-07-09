@@ -46,3 +46,35 @@ Automate the entire Microsoft 365 onboarding process in minutes — from user cr
 
 ```powershell
 Install-Module Microsoft.Graph -Scope CurrentUser
+
+---
+
+# 🚀 Smart_Onboarding_Batch.ps1 — Microsoft 365 Enterprise User Automation
+
+Automate user onboarding in Microsoft 365 at scale with this powerful PowerShell script. From creating users and assigning licenses to adding them to groups and sending welcome emails — this script handles it all using the Microsoft Graph API.
+
+---
+
+## 📦 Features
+
+✅ Bulk user creation from CSV  
+✅ Group creation if it doesn’t exist  
+✅ Group membership assignment  
+✅ License provisioning (O365 Business Premium)  
+✅ Welcome email dispatch (SMTP)  
+✅ Logging for every step (successes and errors)
+
+---
+
+## 🛠 Requirements
+
+- PowerShell 7 or later  
+- Microsoft Graph PowerShell SDK  
+- Global Admin or User Admin + Group Admin + License Admin permissions  
+- Valid SMTP configuration (e.g., Office 365 SMTP)
+
+---
+
+## 📁 File Structure
+
+
